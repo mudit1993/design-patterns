@@ -1,0 +1,7 @@
+package visitorbad;
+
+public class VisitorExecutor {
+	public static void main(String[] args) {
+
+	}
+}

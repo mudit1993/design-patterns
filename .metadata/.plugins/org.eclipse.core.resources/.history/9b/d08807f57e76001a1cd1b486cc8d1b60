@@ -1,0 +1,10 @@
+package memento;
+
+public class MementoExecutor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package strategy;
+
+public class CreditCard {
+
+	private String number;
+	private String date;
+	private String cvv;
+	private ValidationStrategy strategy;
+
+	public CreditCard(ValidationStrategy strategy) {
+		this.strategy = strategy;
+	}
+}

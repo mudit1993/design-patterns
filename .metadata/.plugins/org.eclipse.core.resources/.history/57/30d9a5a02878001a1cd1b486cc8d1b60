@@ -1,0 +1,5 @@
+package visitorbad;
+
+public abstract class AtvPart {
+
+}

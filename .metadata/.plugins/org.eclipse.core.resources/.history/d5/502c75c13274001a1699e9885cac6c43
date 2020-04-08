@@ -1,0 +1,30 @@
+package interpreter;
+
+public class InterpreterExecutor {
+
+	static Expression buildInterpreterTree() {
+		Expression terminal1 = new TerminalExpression("Lion");
+		Expression terminal2 = new TerminalExpression("Wolf");
+		Expression terminal3 = new TerminalExpression("Tiger");
+		
+		Expression complex1 = new OrExpression(terminal1, terminal2);  // (Lion Or Wolf)
+
+		Expression complex2 = new AndExpression(complex1, terminal3);  // (Lion Or Wolf) And Tiger
+
+		return complex2;
+	}
+
+	public static void main(String[] args) {
+//		String context = "Lion";
+//		String context = "Tiger";
+//		String context = "Wolf";
+//		String context = "Wolf Tiger";
+//		String context = "Lion Wolf";
+		String context = "Lion Tiger";
+		Expression expression = buildInterpreterTree();
+		
+		System.out.println(context + " is "+ expression.interpret(context));
+
+	}
+
+}

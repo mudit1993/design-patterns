@@ -1,0 +1,9 @@
+package mediator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Mediator {
+
+	private List<Light> lights = new ArrayList<E>()
+}

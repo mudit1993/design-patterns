@@ -1,0 +1,19 @@
+package state;
+
+public class FanOffState extends State {
+	private Fan fan;
+
+	public FanOffState(Fan fan) {
+		this.fan = fan;
+	}
+
+	@Override
+	public void handleRequest() {
+		System.out.println("Fan is turned to OFF state");
+		fan.setState(fan.getFanOffState());
+	}
+
+	public String toString() {
+		return "Fan is high";
+	}
+}

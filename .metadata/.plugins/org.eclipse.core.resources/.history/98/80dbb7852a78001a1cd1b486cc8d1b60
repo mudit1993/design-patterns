@@ -1,0 +1,7 @@
+package visitor;
+
+public interface AtvPartVisitor {
+	
+	public void visit(Fender fender);
+
+}

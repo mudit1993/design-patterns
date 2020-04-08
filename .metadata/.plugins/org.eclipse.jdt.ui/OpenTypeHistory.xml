@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=creational-patterns/src\/main\/java&lt;prototype{Item.java[Item" modifiers="1025" timestamp="1581754648000"/>
+    <typeInfo handle="=structural-patterns/src\/main\/java&lt;adapter{Employee.java[Employee" modifiers="513" timestamp="1581849168000"/>
+    <typeInfo handle="=structural-patterns/src\/main\/java&lt;bridge.shape{Color.java[Color" modifiers="513" timestamp="1581953126000"/>
+    <typeInfo handle="=structural-patterns/src\/main\/java&lt;bridge.movie{Formatter.java[Formatter" modifiers="513" timestamp="1582018101000"/>
+    <typeInfo handle="=structural-patterns/src\/main\/java&lt;decorator{Sandwich.java[Sandwich" modifiers="513" timestamp="1582736394000"/>
+    <typeInfo handle="=structural-patterns/src\/main\/java&lt;proxy{TwitterService.java[TwitterService" modifiers="513" timestamp="1583664048000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;chainofresponsibility{Handler.java[Handler" modifiers="1025" timestamp="1585404849000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;command{Command.java[Command" modifiers="513" timestamp="1585585381000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;interpreter{Expression.java[Expression" modifiers="513" timestamp="1585756345000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;mediator{Command.java[Command" modifiers="513" timestamp="1585845642000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;observer{Subject.java[Subject" modifiers="1025" timestamp="1586020531000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;observer{Observer.java[Observer" modifiers="1025" timestamp="1586020437000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;strategy{ValidationStrategy.java[ValidationStrategy" modifiers="1025" timestamp="1586174750000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;template{OrderTemplate.java[OrderTemplate" modifiers="1025" timestamp="1586190279000"/>
+    <typeInfo handle="=behavioral-patterns/src\/main\/java&lt;visitorbad{AtvPart.java[AtvPart" modifiers="513" timestamp="1586192653000"/>
+</typeInfoHistroy>

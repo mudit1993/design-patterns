@@ -1,0 +1,17 @@
+package iterator;
+
+public class CarRepository {
+	
+	private String[] cars;
+	private int index;
+	
+	public CarRepository() {
+		cars = new String[10];
+		index = 0;
+	}
+	
+	public void addCar(String car) {
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Feb 29 23:26:20 IST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0170-9217-853b-00000fa42000 
+on database directory memory:/Users/i342146/eclipse-practice/creational-patterns/codejava/webdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/Users/i342146/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=13.0.1+9
+user.dir=/Users/i342146/eclipse-practice/creational-patterns
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.15.2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

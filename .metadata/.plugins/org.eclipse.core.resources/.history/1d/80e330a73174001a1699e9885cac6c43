@@ -1,0 +1,24 @@
+package interpreter;
+
+public class InterpreterExecutor {
+
+	static Expression buildInterpreterTree(String data) {
+		Expression expression = new TerminalExpression(data);
+
+		return expression;
+	}
+
+	public static void main(String[] args) {
+//		String context = "Lion";
+		String context = "Tiger";
+//		String context = "Wolf";
+//		String context = "Wolf Tiger";
+//		String context = "Lion Wolf";
+//		String context = "Lion Tiger";
+		Expression expression = buildInterpreterTree(context);
+		
+		System.out.println(context + " is "+ expression.interpret(context));
+
+	}
+
+}

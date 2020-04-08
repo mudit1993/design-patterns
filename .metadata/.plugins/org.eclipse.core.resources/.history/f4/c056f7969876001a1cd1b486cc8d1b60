@@ -1,0 +1,8 @@
+package observer;
+
+public class ObverserExecutor {
+	public static void main(String[] args) {
+
+	}
+
+}

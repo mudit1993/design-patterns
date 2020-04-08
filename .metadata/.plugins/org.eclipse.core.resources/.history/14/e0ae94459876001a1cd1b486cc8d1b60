@@ -1,0 +1,17 @@
+package observer;
+
+public class MessageStream extends Subject {
+
+	@Override
+	public void setState(String state) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String getState() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

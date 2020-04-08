@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;decorator.MeatSandwich&apos; to &apos;MeatDecorator&apos;&#x0A;- Original project: &apos;structural-patterns&apos;&#x0A;- Original element: &apos;decorator.MeatSandwich&apos;&#x0A;- Renamed element: &apos;decorator.MeatDecorator&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MeatSandwich&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;decorator{MeatSandwich.java[MeatSandwich" matchStrategy="1" name="MeatDecorator" qualified="false" references="true" similarDeclarations="false" stamp="1582736623034" textual="false" version="1.0"/>
+</session>

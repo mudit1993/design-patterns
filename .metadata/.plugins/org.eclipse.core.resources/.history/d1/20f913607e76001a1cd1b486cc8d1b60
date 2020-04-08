@@ -1,0 +1,9 @@
+package memento;
+
+import java.util.Stack;
+
+public class Caretaker {
+	
+	private Stack<EmployeeMemento> history = new Stack<EmployeeMemento>();
+
+}

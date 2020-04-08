@@ -1,0 +1,26 @@
+package iterator;
+
+import java.util.Arrays;
+
+public class CarRepository {
+
+	private String[] cars;
+	private int index;
+
+	public CarRepository() {
+		cars = new String[10];
+		index = 0;
+	}
+
+	public void addCar(String car) {
+		if (index == cars.length) {
+			String[] largerCars = new String[cars.length + 5];
+			System.arraycopy(cars, 0, largerCars, 0, cars.length);
+			cars = largerCars;
+			largerCars = null;
+		}
+		cars[index++] = car;
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package state;
+
+public class Fan {
+	
+	
+	State state;
+	
+	public Fan() {
+	
+	}
+	
+	public void pullChain() {
+		
+	}
+	
+	public State getState() {
+		return state;
+	}
+
+}

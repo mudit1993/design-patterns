@@ -1,0 +1,11 @@
+package state;
+
+public class StateExecutor {
+
+	public static void main(String[] args) {
+		Fan fan = new Fan();
+		
+		
+	}
+
+}

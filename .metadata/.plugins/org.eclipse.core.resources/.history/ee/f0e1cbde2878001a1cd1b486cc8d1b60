@@ -1,0 +1,10 @@
+package visitorbad;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PartsOrder implements AtvPart {
+	
+	private List<AtvParts> parts = new ArrayList<AtvPart>();
+
+}

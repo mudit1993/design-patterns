@@ -1,0 +1,13 @@
+package memento;
+
+public class MementoExecutor {
+
+	public static void main(String[] args) {
+		Caretaker caretaker = new Caretaker();
+		Employee emp = new Employee("Mudit","India", "0193813");
+		
+		System.out.println("Employee before save : " + emp);
+		
+	}
+
+}

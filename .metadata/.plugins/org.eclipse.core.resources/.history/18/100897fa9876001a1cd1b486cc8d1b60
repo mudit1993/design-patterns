@@ -1,0 +1,14 @@
+package observer;
+
+public class ObverserExecutor {
+	public static void main(String[] args) {
+		Subject messages = new MessageStream();
+		
+		PhoneClient phoneObserver = new PhoneClient(messages);
+		TabletClient tabletObserver = new TabletClient(messages);
+		
+		phoneObserver.addMessage("This is a sample message");
+		
+	}
+
+}

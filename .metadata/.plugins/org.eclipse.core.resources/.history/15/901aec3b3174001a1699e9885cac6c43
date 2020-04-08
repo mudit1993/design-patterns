@@ -1,0 +1,15 @@
+package interpreter;
+
+public class InterpreterExecutor {
+
+	public static void main(String[] args) {
+		String context = "Lion";
+//		String context = "Tiger";
+//		String context = "Wolf";
+//		String context = "Wolf Tiger";
+//		String context = "Lion Wolf";
+//		String context = "Lion Tiger";
+		
+	}
+
+}

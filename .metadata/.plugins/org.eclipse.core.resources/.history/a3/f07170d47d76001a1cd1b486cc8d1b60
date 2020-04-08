@@ -1,0 +1,9 @@
+package memento;
+
+public class EmployeeMemento {
+	
+	private String name;
+	private String phone;
+	
+
+}

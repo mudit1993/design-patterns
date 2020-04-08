@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DbSingleton.java&apos; to &apos;structural-patterns/src/main/java/facade&apos;&#x0A;- Original project: &apos;creational-patterns&apos;&#x0A;- Destination element: &apos;structural-patterns/src/main/java/facade&apos;&#x0A;- Original element: &apos;singleton.DbSingleton.java&apos;" description="Copy compilation unit" destination="=structural-patterns/src\/main\/java&lt;facade" element1="/src\/main\/java&lt;singleton{DbSingleton.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1582999027282" units="1" version="1.0"/>
+</session>

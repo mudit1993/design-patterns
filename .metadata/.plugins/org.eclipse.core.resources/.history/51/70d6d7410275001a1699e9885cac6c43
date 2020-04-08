@@ -1,0 +1,13 @@
+package mediator;
+
+public class TurnAlloffCommand implements Command {
+
+	private Mediator mediator;
+
+	@Override
+	public void execute() {
+		mediator.turnOffAllLights();
+
+	}
+
+}

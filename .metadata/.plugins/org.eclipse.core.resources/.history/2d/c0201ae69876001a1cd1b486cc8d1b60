@@ -1,0 +1,11 @@
+package observer;
+
+public class TabletClient extends Observer {
+
+	@Override
+	protected void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

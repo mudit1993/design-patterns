@@ -1,0 +1,30 @@
+package visitor;
+
+public class AtvPartsShippingVisitor implements AtvPartVisitor {
+
+	double shippingCost = 0;
+
+	@Override
+	public void visit(Fender fender) {
+		shippingCost += 4;
+		System.out.println("Fenders are light and cheap to ship");
+	}
+
+	@Override
+	public void visit(Wheel wheel) {
+		shippingCost += 13;
+		System.out.println("Wheels are bulky and expensive to ship");
+	}
+
+	@Override
+	public void visit(Oil oil) {
+		shippingCost += 9;
+		System.out.println("Oil is hazardous and has a fee to ship");
+	}
+
+	@Override
+	public void visit(PartsOrder partsOrder) {
+		
+	}
+
+}
